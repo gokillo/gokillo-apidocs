@@ -1,0 +1,19 @@
+{
+  "name": "gokillo-apidocs",
+  "version": "1.0.0",
+  "description": "Gok!llo API documentation",
+  "main": "index.html",
+  "devDependencies": {
+    "http-server": "^0.6.1"
+  },
+  "scripts": {
+    "install": "npm install http-server",
+    "start": "http-server -a 0.0.0.0 -p 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gokillo/gokillo-apidocs.git"
+  },
+  "author": "Giuseppe Greco <giuseppe.greco@gokillo.com>",
+  "homepage": "https://github.com/gokillo/gokillo-apidocs"
+}
